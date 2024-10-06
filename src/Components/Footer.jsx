@@ -79,8 +79,8 @@ const Footer = () => {
 
         </a>
       </div>
-      <p className="font-epilogue text-md text-center tracking-wide text-white">
-        © Copyright 2021. All Rights Reserved.
+      <p className="font-epilogue text-sm text-center tracking-wide text-white">
+        © Copyright 2024. All Rights Reserved.
       </p>
     </footer>
   );

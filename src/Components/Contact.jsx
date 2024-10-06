@@ -26,7 +26,7 @@ const Contact = () => {
                 {details.map((d,i) => 
                     <div className='flex justify-start items-center space-x-3' key={i}>
                         <img loading='lazy' src={d.img} aria-hidden="true" alt='icon-'/>
-                        <span className='text-[#000000AD]'>{d.details}</span>
+                        <span className='text-[#000000AD] text-lg'>{d.details}</span>
                     </div>
                 )}
             </div>
