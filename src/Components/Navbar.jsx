@@ -10,7 +10,7 @@ const Navbar = () => {
 
     return (
         <div
-            className={`flex justify-between items-center lg:px-20 py-5 bg-[#F0EDE6] transition-all duration-700 ease-out transform ${
+            className={`flex justify-between items-center lg:px-32 py-5 bg-[#F0EDE6] transition-all duration-700 ease-out transform ${
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'
             }`}
         >
