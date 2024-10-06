@@ -5,11 +5,11 @@ import youtube from '../assets/Footer/youtube.svg';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#766C51] w-full pb-4">
-      <div className="flex justify-center space-x-6 py-16">
+    <footer className="bg-[#766C51] w-full pb-1 md:pb-4">
+      <div className="flex justify-center space-x-6 py-8 md:py-16">
         {/* Social Media Icons */}
         <a
-          className="rounded-full flex justify-center items-center border border-white p-1.5 object-cover hover:bg-white transition-all duration-200 group size-12"
+          className="rounded-full flex justify-center items-center border border-white p-1.5 object-cover hover:bg-white transition-all duration-200 group size-9 md:size-12"
           href="https://instagram.com"
           target="_blank"
           rel="noopener noreferrer"
@@ -40,7 +40,7 @@ const Footer = () => {
 
 
         <a
-          className="rounded-full flex justify-center items-center border border-white p-2 object-cover hover:bg-white transition-all duration-200 group size-12"
+          className="rounded-full flex justify-center items-center border border-white p-2 object-cover hover:bg-white transition-all duration-200 group size-9 md:size-12"
           href="https://facebook.com"
           target="_blank"
           rel="noopener noreferrer"
@@ -54,7 +54,7 @@ const Footer = () => {
 
 
         <a
-          className="rounded-full flex justify-center items-center border border-white p-2 object-cover hover:bg-white transition-all duration-200 group size-12"
+          className="rounded-full flex justify-center items-center border border-white p-2 object-cover hover:bg-white transition-all duration-200 group size-9 md:size-12"
           href="https://youtube.com"
           target="_blank"
           rel="noopener noreferrer"
@@ -66,7 +66,7 @@ const Footer = () => {
 
         </a>
         <a
-          className="rounded-full flex justify-center items-center border border-white p-2 object-cover hover:bg-white transition-all duration-200 group size-12"
+          className="rounded-full flex justify-center items-center border border-white p-2 object-cover hover:bg-white transition-all duration-200 group size-9 md:size-12"
           href="https://linkedin.com"
           target="_blank"
           rel="noopener noreferrer"
@@ -79,7 +79,7 @@ const Footer = () => {
 
         </a>
       </div>
-      <p className="font-epilogue text-sm text-center tracking-wide text-white">
+      <p className="font-epilogue text-xs md:text-sm text-center tracking-wide text-white">
         © Copyright 2024. All Rights Reserved.
       </p>
     </footer>
