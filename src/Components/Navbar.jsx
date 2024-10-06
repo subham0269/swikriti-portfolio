@@ -9,7 +9,7 @@ const Navbar = () => {
     }, []);
 
     return (
-        <div
+        <nav
             className={`flex justify-between items-center lg:px-32 py-4 bg-[#F0EDE6] transition-all duration-700 ease-out transform ${
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'
             }`}
@@ -21,7 +21,7 @@ const Navbar = () => {
                 <li>Personal Details</li>
                 <li>Contact</li>
             </ul>
-        </div>
+        </nav>
     );
 };
 
