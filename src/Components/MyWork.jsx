@@ -29,7 +29,7 @@ const MyWork = () => {
             <div className='flex flex-wrap justify-between'>
                 {workList.map((e,i) => (
                     <div key={i}>
-                        <img src={e.img} />
+                        <img src={e.img} alt={`poster-${e.title}`}/>
                         <h3 className='text-center mt-2'>{e.title}</h3>
                     </div>
                 ))}
