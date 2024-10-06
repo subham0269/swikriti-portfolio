@@ -25,7 +25,7 @@ const MyWork = () => {
     
     return (
         <div className="my-20 w-full mx-auto max-w-[1380px] font-epilogue space-y-6 ">
-            <h2 className="text-center font-semibold text-4xl text-[#000000D6]">MY WORK</h2>
+            <h2 className="text-center font-semibold text-4xl text-[#000000D6]">My Work</h2>
             <div className='flex flex-wrap justify-between'>
                 {workList.map((e,i) => (
                     <div key={i}>
