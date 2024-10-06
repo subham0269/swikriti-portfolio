@@ -28,7 +28,7 @@ const Home = () => {
                     loading="lazy"
                     width="1480" // Set the width of the image
                     height="auto"
-                    className="mx-auto w-full max-w-[1480px] h-auto object-cover aspect-[4/3]"
+                    className="mx-auto w-full max-w-[96%] h-auto object-cover aspect-[4/3]"
                 />
             </Suspense>
         </div>
