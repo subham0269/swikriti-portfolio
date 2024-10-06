@@ -26,7 +26,7 @@ const Home = () => {
                     src={heroImg} 
                     alt="swikriti-portrait" 
                     loading="lazy" 
-                    className="mx-auto w-full max-w-[1380px] h-auto"
+                    className="mx-auto w-full max-w-[1480px] h-auto"
                 />
             </Suspense>
         </div>
