@@ -16,10 +16,22 @@ const Navbar = () => {
         >
             <p className="font-semibold text-sm md:text-xl font-epilogue text-[#2D2D2D]">Swikriti Majumder</p>
             <ul className="space-x-6 text-md font-epilogue text-[#2D2D2D] hidden md:flex">
-                <li>About</li>
-                <li>Work</li>
-                <li>Personal Details</li>
-                <li>Contact</li>
+                <li>
+                    <a className='m-0 p-0 peer' href='#about'>About</a>
+                    <div className='h-0.5 bg-[#afaeab] w-0 peer-hover:w-full transition-all duration-300' />
+                </li>
+                <li>
+                    <a className='peer m-0 p-0' href='#work'>Work</a>
+                    <div className='h-0.5 bg-[#afaeab] w-0 peer-hover:w-full transition-all duration-300' />
+                </li>
+                <li>
+                    <a className='peer m-0 p-0' href='#personal'>Personal Details</a>
+                    <div className='h-0.5 bg-[#afaeab] w-0 peer-hover:w-full transition-all duration-300' />
+                </li>
+                <li>
+                    <a className='peer m-0 p-0' href='#contact'>Contact</a>
+                    <div className='h-0.5 bg-[#afaeab] w-0 peer-hover:w-full transition-all duration-300' />
+                </li>
             </ul>
         </nav>
     );

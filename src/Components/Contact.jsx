@@ -20,7 +20,7 @@ const Contact = () => {
     ]
     
     return (
-        <div className="my-20 w-full mx-auto max-w-[1000px] font-epilogue space-y-6">
+        <div className="mb-20 w-full mx-auto max-w-[1000px] font-epilogue space-y-6">
             <h2 className="text-center font-semibold text-3xl sm:text-4xl text-[#000000D6]">Contact</h2>
             <div className='flex flex-col sm:flex-row space-y-5 sm:space-y-0 justify-around items-center'>
                 {details.map((d,i) => 
