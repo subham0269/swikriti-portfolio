@@ -10,7 +10,7 @@ const Footer = () => {
         {/* Social Media Icons */}
         <a
           className="rounded-full flex justify-center items-center border border-white p-1.5 object-cover hover:bg-white transition-all duration-200 group size-9 md:size-12"
-          href="https://instagram.com"
+          href="https://www.instagram.com/swikriti_majumder"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"
@@ -41,7 +41,7 @@ const Footer = () => {
 
         <a
           className="rounded-full flex justify-center items-center border border-white p-2 object-cover hover:bg-white transition-all duration-200 group size-9 md:size-12"
-          href="https://facebook.com"
+          href="https://www.facebook.com/swikticious"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Facebook"
@@ -67,7 +67,7 @@ const Footer = () => {
         </a>
         <a
           className="rounded-full flex justify-center items-center border border-white p-2 object-cover hover:bg-white transition-all duration-200 group size-9 md:size-12"
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/swikriti-majumder-b51322327"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
