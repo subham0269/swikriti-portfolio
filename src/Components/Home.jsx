@@ -1,5 +1,5 @@
 import { lazy, Suspense, useState, useEffect } from "react";
-import heroImg from '../assets/hero.png'
+import heroImg from '../assets/hero.JPG';
 
 const Home = () => {
     const [isAnimated, setIsAnimated] = useState(false);
@@ -28,7 +28,7 @@ const Home = () => {
                     loading="lazy"
                     width="1480" // Set the width of the image
                     height="auto"
-                    className="mx-auto w-full md:max-w-[96%] h-auto object-cover aspect-[9/16] md:aspect-[4/3]"
+                    className="mx-auto w-full md:max-w-[96%] h-auto object-cover object-center aspect-[9/16] md:aspect-[4/3]"
                 />
             </Suspense>
         </div>
