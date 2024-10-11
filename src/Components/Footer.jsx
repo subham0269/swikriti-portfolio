@@ -55,7 +55,7 @@ const Footer = () => {
 
         <a
           className="rounded-full flex justify-center items-center border border-white p-2 object-cover hover:bg-white transition-all duration-200 group size-9 md:size-12"
-          href="https://youtube.com"
+          href="https://www.youtube.com/watch?v=IAADi7VBfio"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="YouTube"
