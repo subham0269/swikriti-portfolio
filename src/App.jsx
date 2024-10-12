@@ -6,6 +6,7 @@ import InfiniteScroll from "./Components/InfiniteScroll"
 import MyWork from "./Components/MyWork"
 import Navbar from "./Components/Navbar"
 import Personal from "./Components/Personal"
+import Collaboration from "./Components/Collaboration"
 
 function App() {
 
@@ -32,6 +33,10 @@ function App() {
       </section>
 
       <InfiniteScroll />
+
+      <section>
+        <Collaboration />
+      </section>
 
       <section id="contact">
         <div className="h-16 bg-red"/>
