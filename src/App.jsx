@@ -7,6 +7,7 @@ import MyWork from "./Components/MyWork"
 import Navbar from "./Components/Navbar"
 import Personal from "./Components/Personal"
 import Collaboration from "./Components/Collaboration"
+import Swipe from "./Components/SwiperSlider"
 
 function App() {
 
@@ -32,7 +33,8 @@ function App() {
         <Personal />
       </section>
 
-      <InfiniteScroll />
+      {/* <InfiniteScroll /> */}
+      <Swipe />
 
       <section>
         <Collaboration />
