@@ -48,6 +48,10 @@ const Navbar = () => {
                         <div className='h-0.5 bg-[#afaeab] w-0 peer-hover:w-full transition-all duration-300' />
                     </li>
                     <li>
+                        <a className='peer m-0 p-0' href='#collaboration'>Collaboration</a>
+                        <div className='h-0.5 bg-[#afaeab] w-0 peer-hover:w-full transition-all duration-300' />
+                    </li>
+                    <li>
                         <a className='peer m-0 p-0' href='#contact'>Contact</a>
                         <div className='h-0.5 bg-[#afaeab] w-0 peer-hover:w-full transition-all duration-300' />
                     </li>
@@ -71,6 +75,9 @@ const Navbar = () => {
                         </li>
                         <li>
                             <a href='#personal' onClick={toggleMenu}>Personal Details</a>
+                        </li>
+                        <li>
+                            <a href='#collaboration' onClick={toggleMenu}>Collaboration</a>
                         </li>
                         <li>
                             <a href='#contact' onClick={toggleMenu}>Contact</a>

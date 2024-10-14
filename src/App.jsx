@@ -36,7 +36,7 @@ function App() {
       {/* <InfiniteScroll /> */}
       <Swipe />
 
-      <section>
+      <section id="collaboration">
         <Collaboration />
       </section>
 
